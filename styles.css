@@ -86,3 +86,26 @@ label, input{
     border-radius: 15px;
     justify-content: center;
 }
+
+@media (max-width: 661px){
+    body{
+        margin: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .title{
+        margin: 5px;
+    }
+    .container{
+        width: 39vh;
+        margin: 10vh;
+        height: auto;
+    }
+
+    .box-result{
+        width: 40vh;
+        height: 10vh;
+    }
+}
